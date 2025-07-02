@@ -14,7 +14,7 @@ function BookingHistoryList({bookingHistory}) {
                 alt='image'
                 width={120}
                 height={120}
-                className='rounded-lg object-covers'
+                className='rounded-lg object-cover'
                 />
             }
             
