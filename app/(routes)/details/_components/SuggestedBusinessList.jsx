@@ -44,7 +44,8 @@ function SuggestedBusinessList({business}) {
       '>Similar Business</h2>
       <div className=''>
        {businessList&&businessList.map((business,index)=>(
-          <Link href={'/details/'+business.id} className="flex gap-2 mb-4
+          <Link key={business.id} 
+           href={'/details/'+business.id} className="flex gap-2 mb-4
           hover:border rounded-lg p-2
           cursor-pointer hover:shadow-md
            border-purple-600">
